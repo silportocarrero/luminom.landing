@@ -1,0 +1,116 @@
+* {
+  padding:0;
+  margin:0;
+  font-family: 'Montserrat';
+}
+
+.navbar {
+  background-color: #f2f2f2;
+}
+
+.navbar a.right {
+  padding-top: 40px;
+  position: absolute;
+  right: 30%;
+  color: black;
+  decoration:none;
+  font-size: 20px;
+}
+
+#fb{
+  position: absolute;
+  right:40px;
+  align-items: center;
+  padding-top: 15px;
+}
+
+#logo{
+  padding-left: 20px;
+
+}
+
+.container {
+  height:91vh;
+  display: flex;
+}
+
+section {
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+}
+
+//*section:hover {
+  flex:2;
+}*//
+
+section h1 {
+  background:rgba(0,0,0,0.1);
+  color:white;
+  padding: 12px 32px;
+}
+
+.photographer{
+  background: rgb(255,255,255,0.5);
+  background-position: center;
+  background-size: cover;
+  margin-right: 2px;
+  background-blend-mode: multiply;
+  color:white;
+  text-shadow:2px 2px 10px blue;
+}
+
+.photographer:hover{
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.designer{
+  background: rgb(255,255,255,0.5);
+  background-position: center;
+  background-size: cover;
+  margin-right: 2px;
+  background-blend-mode: multiply;
+  color:white;
+  text-shadow:2px 2px 10px blue;
+}
+.designer:hover{
+  background: rgba(0, 0, 0, 0.0);
+}
+
+.developer{
+  background: rgb(255,255,255,0.5);
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color:white;
+  text-shadow:2px 2px 10px blue;
+}
+.developer:hover{
+  background: rgba(0, 0, 0, 0.0);
+}
+
+#wsp{
+  position: absolute;
+  right:20px;
+  bottom: 100px;
+}
+
+
+.footer{
+  background: #1a4376;
+  color:white;
+  height: 50px;
+  text-align: left;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.footer-bottom{
+  padding-top: 10px;
+  padding-left: 40px;
+}
